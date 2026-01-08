@@ -235,7 +235,8 @@ def get_dim_from_space(space):
     elif isinstance(space, Tuple):
         dim = sum([get_dim_from_space(sp) for sp in space])
     elif "MultiDiscrete" in space.__class__.__name__:
-        return (space.high - space.low) + 1
+        # return (space.high - space.low) + 1
+        return space.nvec
     elif isinstance(space, list):
         dim = space[0]
     else:

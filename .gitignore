@@ -144,3 +144,8 @@ png
 .vscode
 tensorboards3
 api
+
+/*.acmi
+/bvr_sim.log
+/bvr_sim_acmi
+/bvr_sim_log
