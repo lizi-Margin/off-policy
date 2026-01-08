@@ -1,3 +1,6 @@
 [submodule "uhtk"]
 	path = uhtk
 	url = https://github.com/lizi-Margin/uhtk.git
+[submodule "offpolicy/envs/bvr_sim"]
+	path = offpolicy/envs/bvr_sim
+	url = https://github.com/lizi-Margin/bvr_sim.git
