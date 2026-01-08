@@ -17,7 +17,7 @@ for seed in $(seq ${seed_max}); do
         --scenario_name ${scenario} \
         --num_agents_each_team ${num_agents_each_team} \
         --seed ${seed} \
-        --n_rollout_threads 2 \
+        --n_rollout_threads 1 \
         --episode_length 400 \
         --batch_size 32 \
         --tau 0.005 \
